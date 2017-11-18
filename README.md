@@ -8,12 +8,17 @@ to use the image viewer
 2. create an object for imageViewer
       eg:   VDSImageViewerAnimations *obj;
   
+  
+  
 3. allocate and initialize it.
       eg:  
       _obj = [[VDSImageViewerAnimations alloc]init];
+      
       _obj.imageArray = arrayOfImages;  
       
       // create an array of image name as strings eg: arrayOfImages = [[NSArray alloc]initWithObjects:@"1",@"2",@"3",@"4",@"5", nil];
+    
+    
     
     
 4. in tableview or collectionview, cell for row at index path, add
