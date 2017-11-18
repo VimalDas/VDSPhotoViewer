@@ -11,12 +11,16 @@ to use the image viewer
 3. allocate and initialize it.
       eg:  
       _obj = [[VDSImageViewerAnimations alloc]init];
-      _obj.imageArray = arrayOfImages;  // create an array of image name as strings eg: arrayOfImages = [[NSArray alloc]initWithObjects:@"1",@"2",@"3",@"4",@"5", nil];
+      _obj.imageArray = arrayOfImages;  
+      
+      // create an array of image name as strings eg: arrayOfImages = [[NSArray alloc]initWithObjects:@"1",@"2",@"3",@"4",@"5", nil];
     
     
 4. in tableview or collectionview, cell for row at index path, add
     
-      cell.imageView.tag = indexPath.row; // to the image view you are using to display the image, give the tag as indexpath.row.
+      cell.imageView.tag = indexPath.row; 
+      
+      // to the image view you are using to display the image, give the tag as indexpath.row.
     
      
     thats it. enjoy!!
