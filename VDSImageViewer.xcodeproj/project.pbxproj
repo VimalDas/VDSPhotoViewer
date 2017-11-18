@@ -13,6 +13,9 @@
 		94296CD31FC0893300A9CF2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94296CD21FC0893300A9CF2F /* Assets.xcassets */; };
 		94296CD61FC0893300A9CF2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94296CD41FC0893300A9CF2F /* LaunchScreen.storyboard */; };
 		94296CD91FC0893300A9CF2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94296CD81FC0893300A9CF2F /* main.m */; };
+		94296CE41FC0899200A9CF2F /* VDSImageViewerAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 94296CE11FC0899200A9CF2F /* VDSImageViewerAnimations.m */; };
+		94296CE51FC0899200A9CF2F /* VDSContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94296CE21FC0899200A9CF2F /* VDSContentViewController.m */; };
+		94296CE81FC08AC800A9CF2F /* DemoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94296CE71FC08AC800A9CF2F /* DemoTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		94296CD51FC0893300A9CF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94296CD71FC0893300A9CF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94296CD81FC0893300A9CF2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94296CE01FC0899200A9CF2F /* VDSImageViewerAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDSImageViewerAnimations.h; sourceTree = "<group>"; };
+		94296CE11FC0899200A9CF2F /* VDSImageViewerAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDSImageViewerAnimations.m; sourceTree = "<group>"; };
+		94296CE21FC0899200A9CF2F /* VDSContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDSContentViewController.m; sourceTree = "<group>"; };
+		94296CE31FC0899200A9CF2F /* VDSContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDSContentViewController.h; sourceTree = "<group>"; };
+		94296CE61FC08AC800A9CF2F /* DemoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoTableViewCell.h; sourceTree = "<group>"; };
+		94296CE71FC08AC800A9CF2F /* DemoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +67,12 @@
 		94296CC81FC0893300A9CF2F /* VDSImageViewer */ = {
 			isa = PBXGroup;
 			children = (
+				94296CDF1FC0895200A9CF2F /* Main Files */,
 				94296CC91FC0893300A9CF2F /* AppDelegate.h */,
 				94296CCA1FC0893300A9CF2F /* AppDelegate.m */,
 				94296CCC1FC0893300A9CF2F /* ViewController.h */,
+				94296CE61FC08AC800A9CF2F /* DemoTableViewCell.h */,
+				94296CE71FC08AC800A9CF2F /* DemoTableViewCell.m */,
 				94296CCD1FC0893300A9CF2F /* ViewController.m */,
 				94296CCF1FC0893300A9CF2F /* Main.storyboard */,
 				94296CD21FC0893300A9CF2F /* Assets.xcassets */,
@@ -69,6 +81,17 @@
 				94296CD81FC0893300A9CF2F /* main.m */,
 			);
 			path = VDSImageViewer;
+			sourceTree = "<group>";
+		};
+		94296CDF1FC0895200A9CF2F /* Main Files */ = {
+			isa = PBXGroup;
+			children = (
+				94296CE31FC0899200A9CF2F /* VDSContentViewController.h */,
+				94296CE21FC0899200A9CF2F /* VDSContentViewController.m */,
+				94296CE01FC0899200A9CF2F /* VDSImageViewerAnimations.h */,
+				94296CE11FC0899200A9CF2F /* VDSImageViewerAnimations.m */,
+			);
+			path = "Main Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94296CE51FC0899200A9CF2F /* VDSContentViewController.m in Sources */,
 				94296CCE1FC0893300A9CF2F /* ViewController.m in Sources */,
+				94296CE81FC08AC800A9CF2F /* DemoTableViewCell.m in Sources */,
 				94296CD91FC0893300A9CF2F /* main.m in Sources */,
+				94296CE41FC0899200A9CF2F /* VDSImageViewerAnimations.m in Sources */,
 				94296CCB1FC0893300A9CF2F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
